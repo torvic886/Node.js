@@ -51,6 +51,7 @@ getEmpleado(1, (err, empleado) => {
     console.log(empleado);
 })
 
+//callback
 
 
 
