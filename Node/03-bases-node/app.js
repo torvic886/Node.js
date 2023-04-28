@@ -1,20 +1,7 @@
+const base = 5;
 
-const { crearArchivo } = require('./helpers/multiplicar')
-const argv = require('yargs')
-
-console.clear();
-
-console.log(process.argv);
-console.log(argv);
-
-console.log('base: yargs', argv.base);
-
-
-
-
-
-// const base = 5;
-
-// crearArchivo( base )
-//     .then ((nombreArchivo) => console.log(nombreArchivo,'creado'))
-//     .catch( (err) =>  console.log(err))
+for (let i = 1; i <= 10; i++) 
+{
+    console.log(`${base} X ${i} = ${base*i}`);
+    
+}
